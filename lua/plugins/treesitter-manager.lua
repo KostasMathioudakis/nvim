@@ -1,5 +1,11 @@
 return {
     "romus204/tree-sitter-manager.nvim",
+    cmd = {
+        "TSManager",
+        "TSInstall",
+        "TSUninstall",
+        "TSUpdate",
+    },
     dependencies = {}, -- ensure tree-sitter CLI is installed on your system
     config = function()
         require("tree-sitter-manager").setup({
