@@ -14,6 +14,10 @@ M.telescope = {
     help_tags = "<leader>fh",
 }
 
+M.format = {
+    format = "<M-f>",
+}
+
 M.harpoon = {
     add = "<M-a>",
     menu = "<M-e>",
@@ -22,6 +26,14 @@ M.harpoon = {
     file3 = "<M-3>",
     file4 = "<M-4>",
     remove = "<M-d>",
+}
+
+M.rust = {
+    run = "<M-c>r",
+    check = "<M-c>c",
+    watch = "<M-c>w",
+    test = "<M-c>t",
+    close_task = "<M-q>",
 }
 
 M.undotree = {

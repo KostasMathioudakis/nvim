@@ -6,12 +6,14 @@ A compact Lazy.nvim-based Neovim setup focused on fast project navigation, LSP s
 
 - Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 - Completion: [blink.cmp](https://github.com/Saghen/blink.cmp)
+- Formatting: [conform.nvim](https://github.com/stevearc/conform.nvim)
 - LSP installer/config: Mason, mason-lspconfig, nvim-lspconfig
 - Fuzzy finding: Telescope with fzf-native
 - File explorers:
   - Oil for editable directory buffers
   - Neo-tree for a persistent project sidebar and floating explorer
 - Navigation: Harpoon 2
+- Tasks: Overseer with global Cargo commands
 - Git: vim-fugitive
 - Undo history: undotree
 - Icons: nvim-web-devicons
@@ -27,6 +29,7 @@ A compact Lazy.nvim-based Neovim setup focused on fast project navigation, LSP s
 - Optional language tooling:
   - `tree-sitter` CLI for tree-sitter parser management
   - `clippy` for Rust analyzer checks
+  - Formatter CLIs used by Conform, such as `stylua`, `prettierd`, `prettier`, `ruff`, `google-java-format`, `shfmt`, `fish_indent`, and `rustfmt`
 
 The config bootstraps lazy.nvim automatically on first launch.
 

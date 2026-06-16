@@ -66,6 +66,13 @@
 | `<Tab>` | `Tab` | Command-line | Accept the selected command-line completion |
 | `<CR>` | `Enter` | Command-line | Execute the typed command as-is without accepting a completion |
 
+## Formatting
+
+| Shortcut | Actual keys | Mode | Action |
+|---|---|---|---|
+| `<M-f>` | `Option f` on macOS / `Alt f` on Linux or Windows | Normal / Visual | Format the current buffer or selected range with Conform |
+
+On macOS, the terminal may need Option configured as Esc/Meta for `<M-f>` mappings to reach Neovim.
 
 ## Harpoon
 
@@ -81,6 +88,18 @@
 | `j` / `k` | `j` / `k` | Harpoon menu | Move down or up through the Harpoon list |
 | `dd` | `d d` | Harpoon menu | Remove the entry under the cursor |
 | `q` / `Esc` | `q` / `Esc` | Harpoon menu | Close the Harpoon menu |
+
+## Rust Tasks
+
+| Shortcut | Actual keys | Mode | Action |
+|---|---|---|---|
+| `<M-c>r` | `Option c` then `r` on macOS / `Alt c` then `r` on Linux or Windows | Normal | Start `cargo run` in Overseer |
+| `<M-c>c` | `Option c` then `c` on macOS / `Alt c` then `c` on Linux or Windows | Normal | Start `cargo check` in Overseer |
+| `<M-c>w` | `Option c` then `w` on macOS / `Alt c` then `w` on Linux or Windows | Normal | Start `cargo watch` in Overseer |
+| `<M-c>t` | `Option c` then `t` on macOS / `Alt c` then `t` on Linux or Windows | Normal | Start `cargo test` in Overseer |
+| `<M-q>` | `Option q` on macOS / `Alt q` on Linux or Windows | Overseer task output / task list | Close the task output or task list window |
+
+On macOS, the terminal may need Option configured as Esc/Meta for `<M-c>` mappings to reach Neovim.
 
 ## Lazy
 
