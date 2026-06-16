@@ -19,17 +19,19 @@ return {
             },
 
             [keys.blink.accept] = {
-                "select_and_accept",
+                function(cmp)
+                    if cmp.snippet_active() then
+                        return cmp.accept()
+                    end
+
+                    return cmp.select_and_accept()
+                end,
+                "snippet_forward",
                 "fallback",
             },
 
             [keys.blink.hide] = {
                 "hide",
-                "fallback",
-            },
-
-            [keys.blink.snippet_forward] = {
-                "snippet_forward",
                 "fallback",
             },
 
@@ -100,7 +102,7 @@ return {
                 },
 
                 [keys.blink.accept] = {
-                    "select_accept_and_enter",
+                    "select_and_accept",
                     "fallback",
                 },
 
@@ -111,6 +113,13 @@ return {
             },
 
             completion = {
+                list = {
+                    selection = {
+                        preselect = false,
+                        auto_insert = false,
+                    },
+                },
+
                 menu = {
                     auto_show = function()
                         return vim.fn.getcmdtype() == ":"

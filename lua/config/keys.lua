@@ -57,9 +57,8 @@ M.lsp = {
 M.blink = {
     previous = "<Up>",
     next = "<Down>",
-    accept = "<CR>",
+    accept = "<Tab>",
     hide = "<Esc>",
-    snippet_forward = "<Tab>",
     snippet_backward = "<S-Tab>",
 }
 

@@ -54,6 +54,18 @@
 | `<leader>fb` | `Space f b` | Normal | Search and switch between open buffers |
 | `<leader>fh` | `Space f h` | Normal | Search Neovim help documentation |
 
+## Completion
+
+| Shortcut | Actual keys | Mode | Action |
+|---|---|---|---|
+| `<Tab>` | `Tab` | Insert | Accept the selected completion item; if inside a snippet, advance through the snippet |
+| `<S-Tab>` | `Shift + Tab` | Insert | Move backward through snippet placeholders |
+| `<Up>` | `Up arrow` | Insert / command-line | Select the previous completion item |
+| `<Down>` | `Down arrow` | Insert / command-line | Select the next completion item |
+| `<Esc>` | `Escape` | Insert / command-line | Hide the completion menu |
+| `<Tab>` | `Tab` | Command-line | Accept the selected command-line completion |
+| `<CR>` | `Enter` | Command-line | Execute the typed command as-is without accepting a completion |
+
 
 ## Harpoon
 
