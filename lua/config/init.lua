@@ -11,4 +11,4 @@ require("config.set")
 -- Toggle for transparent background
 --require("config.colors")
 
-vim.cmd.colorscheme("carbonfox")
+vim.cmd.colorscheme("catppuccin-mocha")

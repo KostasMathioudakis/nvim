@@ -15,7 +15,7 @@ A compact Lazy.nvim-based Neovim setup focused on fast project navigation, LSP s
 - Git: vim-fugitive
 - Undo history: undotree
 - Icons: nvim-web-devicons
-- Theme: carbonfox, with transparent editor backgrounds
+- Theme: Catppuccin Mocha
 
 ## Requirements
 
