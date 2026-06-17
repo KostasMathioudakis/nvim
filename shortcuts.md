@@ -4,6 +4,7 @@
 |---|---|---|---|
 | `gg` | `g g` | Normal | Go to the first line in the file |
 | `G` | `Shift + g` | Normal | Go to the last line in the file |
+| `zz` | `z z` | Normal | Center the current cursor line in the window |
 | `ggyG` | `g g y Shift + g` | Normal | Yank the entire file |
 | `gg"+yG` | `g g " + y Shift + g` | Normal | Copy the entire file to the system clipboard |
 | `ggdG` | `g g d Shift + g` | Normal | Delete the entire file |
@@ -13,6 +14,31 @@
 | `<leader>pv` | `Space p v` | Normal | Open Oil’s editable directory buffer |
 | `<leader>pt` | `Space p t` | Normal | Toggle Neo-tree as a project sidebar and reveal the current file |
 | `<leader>pf` | `Space p f` | Normal | Open Neo-tree as a floating file explorer |
+
+## Basic jump motions
+
+| Shortcut | Actual keys | Mode | Action |
+|---|---|---|---|
+| `w` | `w` | Normal | Jump to the start of the next word |
+| `b` | `b` | Normal | Jump backward to the start of the previous word |
+| `e` | `e` | Normal | Jump to the end of the current or next word |
+| `0` | `0` | Normal | Jump to the first column of the line |
+| `^` | `Shift + 6` | Normal | Jump to the first non-blank character of the line |
+| `$` | `Shift + 4` | Normal | Jump to the end of the line |
+| `%` | `Shift + 5` | Normal | Jump to the matching bracket, parenthesis, or brace |
+| `{` | `Shift + [` | Normal | Jump to the previous paragraph or block |
+| `}` | `Shift + ]` | Normal | Jump to the next paragraph or block |
+| `Ctrl + d` | `Control + d` | Normal | Jump down half a screen |
+| `Ctrl + u` | `Control + u` | Normal | Jump up half a screen |
+| `<C-o>` | `Control + o` | Normal | Jump backward through the jump list |
+| `<C-i>` | `Control + i` | Normal | Jump forward through the jump list |
+| `gd` | `g d` | Normal | Jump to definition when LSP is attached |
+| `gD` | `g Shift + d` | Normal | Jump to declaration when LSP is attached |
+| `gi` | `g i` | Normal | Jump to implementation when LSP is attached |
+| `gr` | `g r` | Normal | Jump to references when LSP is attached |
+| `gf` | `g f` | Normal | Jump to the file path under the cursor |
+| `g;` | `g ;` | Normal | Jump to the previous change position |
+| `g,` | `g ,` | Normal | Jump to the next change position |
 
 ## Oil
 
