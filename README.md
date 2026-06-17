@@ -41,7 +41,7 @@ Back up any existing config first.
 
 ```sh
 mv ~/.config/nvim ~/.config/nvim.bak
-git clone <your-repo-url> ~/.config/nvim
+git clone https://github.com/KostasMathioudakis/nvim ~/.config/nvim
 nvim
 ```
 
@@ -49,7 +49,7 @@ nvim
 
 ```sh
 mv ~/.config/nvim ~/.config/nvim.bak
-git clone <your-repo-url> ~/.config/nvim
+git clone https://github.com/KostasMathioudakis/nvim ~/.config/nvim
 nvim
 ```
 
@@ -57,7 +57,7 @@ nvim
 
 ```powershell
 Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
-git clone <your-repo-url> $env:LOCALAPPDATA\nvim
+git clone https://github.com/KostasMathioudakis/nvim $env:LOCALAPPDATA\nvim
 nvim
 ```
 

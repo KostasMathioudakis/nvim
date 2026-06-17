@@ -31,7 +31,6 @@ return {
             },
 
             [keys.blink.hide] = {
-                "hide",
                 "fallback",
             },
 

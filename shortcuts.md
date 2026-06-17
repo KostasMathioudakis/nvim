@@ -62,7 +62,8 @@
 | `<S-Tab>` | `Shift + Tab` | Insert | Move backward through snippet placeholders |
 | `<Up>` | `Up arrow` | Insert / command-line | Select the previous completion item |
 | `<Down>` | `Down arrow` | Insert / command-line | Select the next completion item |
-| `<Esc>` | `Escape` | Insert / command-line | Hide the completion menu |
+| `<Esc>` | `Escape` | Insert | Leave insert mode, closing completion UI as part of returning to normal mode |
+| `<Esc>` | `Escape` | Command-line | Hide the completion menu |
 | `<Tab>` | `Tab` | Command-line | Accept the selected command-line completion |
 | `<CR>` | `Enter` | Command-line | Execute the typed command as-is without accepting a completion |
 
