@@ -17,6 +17,13 @@ return {
 				CursorLineNr = {
 					fg = "#ffffff",
 					bold = true,
+					bg = "#1e1e1e",
+				},
+				LineNr = {
+					bg = "#1e1e1e",
+				},
+				SignColumn = {
+					bg = "#1e1e1e",
 				},
 			}
 		end,
