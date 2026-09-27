@@ -12,7 +12,7 @@ return {
 				crust = "#080808",
 			},
 		},
-		custom_highlights = function()
+		custom_highlights = function(colors)
 			return {
 				CursorLineNr = {
 					fg = "#ffffff",
@@ -24,6 +24,10 @@ return {
 				},
 				SignColumn = {
 					bg = "#1e1e1e",
+				},
+				DiagnosticUnnecessary = {
+					style = { "underline" },
+					sp = colors.overlay1,
 				},
 			}
 		end,
